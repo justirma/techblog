@@ -1,41 +1,22 @@
-<<<<<<< HEAD
 baseURL = "https://blog.justirma.com"
 languageCode = "en-us"
 title = "freeCollectiv"
-=======
-baseURL = "http://blog.justirma.com/"
-languageCode = "en-us"
-title = "myCollectiv"
->>>>>>> 9a03270c48428fc741dad0c97d686219a7113472
 theme = "minimal"
 
 [params]
     author = "Irma Mesa"
-<<<<<<< HEAD
     description = "[collection of my journey into tech]"
     githubUsername = "#"
     accent = "teal"
     showBorder = true
     backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
-=======
-    description = "[blog collection of tech, code, inspiration]"
-    githubUsername = "irmattg"
-    accent = "teal"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Open Sans" # should match the name on Google Fonts!
->>>>>>> 9a03270c48428fc741dad0c97d686219a7113472
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
 [[menu.main]]
-<<<<<<< HEAD
     url = "/"
-=======
-    url = "http://blog.justirma.com"
->>>>>>> 9a03270c48428fc741dad0c97d686219a7113472
     name = "Home"
     weight = 1
 
