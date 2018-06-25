@@ -1,2 +1,8 @@
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.25.1"
+
+# Redirect default Netlify subdomain to primary domain
+https://gunner-leader-48648.netlify.com/* https://www.blog.justirma.com/:splat 301!
+
+# These extra rules are required because HTTPS is not forced
+http://gunner-leader-48648.netlify.com/* https://www.blog.justirma.com/:splat 301!
