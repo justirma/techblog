@@ -1,0 +1,79 @@
+<<<<<<< HEAD
+baseURL = "https://blog.justirma.com"
+languageCode = "en-us"
+title = "freeCollectiv"
+=======
+baseURL = "http://blog.justirma.com/"
+languageCode = "en-us"
+title = "myCollectiv"
+>>>>>>> 9a03270c48428fc741dad0c97d686219a7113472
+theme = "minimal"
+
+[params]
+    author = "Irma Mesa"
+<<<<<<< HEAD
+    description = "[collection of my journey into tech]"
+    githubUsername = "#"
+    accent = "teal"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+=======
+    description = "[blog collection of tech, code, inspiration]"
+    githubUsername = "irmattg"
+    accent = "teal"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Open Sans" # should match the name on Google Fonts!
+>>>>>>> 9a03270c48428fc741dad0c97d686219a7113472
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[[menu.main]]
+<<<<<<< HEAD
+    url = "/"
+=======
+    url = "http://blog.justirma.com"
+>>>>>>> 9a03270c48428fc741dad0c97d686219a7113472
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:irmaamesa@me.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/irmattg/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/irmattg/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/irmamesa/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.youtube.com/irmattg/"
+    name = "youtube"
+    weight = 5
